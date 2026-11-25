@@ -1,0 +1,39 @@
+.hero {
+  background: #2e2f42;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.hero-text {
+  text-align: center;
+  color: #fff;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  max-width: 496px;
+}
+
+.hero-btn {
+  background: #4d5ae5;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 16px 32px;
+
+  margin: 0 auto;
+  display: block;
+  margin-top: 48px;
+  border: none;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #404bbf;
+}
+
+.hero.section {
+  padding: 188px 0;
+}
+
+.hero-text {
+  margin: 0 auto;
+}

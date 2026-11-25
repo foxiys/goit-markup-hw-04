@@ -1,0 +1,69 @@
+.team {
+  background: #f4f4fd;
+}
+.team li {
+  background-color: #fff;
+}
+.team-name,
+.team-text,
+.team-title {
+  text-align: center;
+}
+
+.team-name {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-text {
+  letter-spacing: 0.02em;
+}
+
+/* .tm {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-direction: row;
+  gap: 72px;
+}
+ */
+
+.tm-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.team-title {
+  margin-bottom: 72px;
+}
+
+.team-card {
+  padding: 32px 16px;
+}
+
+.team-name {
+  margin-bottom: 8px;
+}
+.tm-list > li {
+  border-radius: 0 0 4px 4px;
+}
+
+.tm-list > li > img {
+  display: block;
+}
