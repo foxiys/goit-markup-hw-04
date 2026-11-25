@@ -25,3 +25,11 @@
 .feat-list > li {
   width: calc((100% - 72px) / 4);
 }
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+}
